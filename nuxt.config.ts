@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
   ],
   supabase: {
-    url: process.env.SUPABASE_URL,
-    key: process.env.SUPABASE_KEY,
+    url: "https://jxvjacysyhgktryekojx.supabase.co",
+    key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4dmphY3lzeWhna3RyeWVrb2p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTA3NTA3MjgsImV4cCI6MjAyNjMyNjcyOH0.Wx1aVSu5YXGozMTPLgarGs0BmrPWJQH5QsaDq5vOolI",
   },
 });
