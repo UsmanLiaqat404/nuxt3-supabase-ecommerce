@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/nuxt3-supabase-ecommerce/",
+  },
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/supabase",
